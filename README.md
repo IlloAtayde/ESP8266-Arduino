@@ -71,22 +71,22 @@ Linux terminal:~$ ./install.sh
 
 >Ao longo da instalação será adicionado um atalho na área de trabalho, que será ulitizado para "chamar" o arquivo executável. Caso o processo de instalação tenha sido executado pelo super usuário através do comando "sudo", o atalho não poderá ser    executado por um usuário não "root", dessa forma teremos que mudar as permissões de execução de tal arquivo, da seguinte forma:
 
-* Acessar a área de trabalho:
+* Acesse a área de trabalho:
 ```
 Linux terminal:~$ cd ~/Área\ de\ Trabalho/
 ```
-* Alterar as permissões do atalho:
+* Altere as permissões do atalho:
 ```
 Linux terminal:~$ sudo chmod 755 arduino*.desktop
 ```
 
 >Quase concluído, a sua IDE do Arduino já está instalada, só que para ter acesso a algumas configurações, como escolha da porta para comunicação com as placas, seu usuário terá que fazer parte dos seguintes grupos: "dialout" e "tty".
 
-* Adicionar o seu usuário ao grupo _**"tty"**_:
+* Adicione o seu usuário ao grupo _**"tty"**_:
 ```
 Linux terminal:~$ sudo usermod -a -G tty nomeDoSeuUsuario
 ``` 
-* Adicionar o seu usuário ao grupo _**"dialout"**_:
+* Adicione o seu usuário ao grupo _**"dialout"**_:
 ```
 Linux terminal:~$ sudo usermod -a -G dialout nomeDoSeuUsuario
 ```
