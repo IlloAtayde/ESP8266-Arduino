@@ -98,7 +98,7 @@ Linux terminal:~$ sudo usermod -a -G dialout nomeDoSeuUsuario
 
 * Na IDE Arduino no menu
   * Arquivo->Preferências, ou simplesmente digite: Ctrl+,(tecla control mais vírgula).
-  * Em Preferências no campo URLs Adicionais de Gerenciadores de Placas, insira:
+  * Em Preferências no campo URLs Adicionais de Gerenciadores de Placas, _cole_ o link:
     http://arduino.esp8266.com/stable/package_esp8266com_index.json
   * Clique em OK.
 
@@ -116,8 +116,11 @@ Linux terminal:~$ sudo usermod -a -G dialout nomeDoSeuUsuario
 *Referências*
 
 [Instalando o _JAVA Oracle_](http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html)
+
 [Instalando _IDE_ do Arduino no Ubuntu](http://ubuntuhandbook.org/index.php/2015/11/install-arduino-ide-1-6-6-ubuntu/)
+
 [Bibliotecas, exemplos, documentação e afins](https://github.com/esp8266/Arduino)
+
 [Resolução de problemas _IDE_ do Arduino](https://www.arduino.cc/en/Guide/Troubleshooting#toc1)
 
 *Links úteis*
