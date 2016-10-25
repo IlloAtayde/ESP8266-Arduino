@@ -1,6 +1,6 @@
 ## _IDE_ Arduino/ESP8266 no _GNU_/Linux 
 
-    Este pequeno tutorial descreve os passos necessários para configuração e instalação do ambiente de desenvolvimento _Arduino_
+Este pequeno tutorial descreve os passos necessários para configuração e instalação do ambiente de desenvolvimento _Arduino_
 em sistemas operacionais _GNU_/Linux. Permitindo o uso da _IDE_ do Arduino na codificação e gravação direta das placas que possuam o _ESP8266_.
 
 ***
