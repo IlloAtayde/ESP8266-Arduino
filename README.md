@@ -11,3 +11,8 @@ em sistemas operacionais _GNU_/Linux. Permitindo o uso da _IDE_ do Arduino na co
 4. Cofigurar a _IDE_ do Arduino para trabalhar com o _ESP_.
 
 ---
+
+```
+Todos os procedimentos efetuados neste tutorial foram executados em uma distribuição GNU/Linux
+Xubuntu 16.04.1 LTS
+```
