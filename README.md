@@ -82,11 +82,11 @@ Linux terminal:~$ sudo chmod 755 arduino*.desktop
 
 >Quase concluído, a sua IDE do Arduino já está instalada, só que para ter acesso a algumas configurações, como escolha da porta para comunicação com as placas, seu usuário terá que fazer parte dos seguintes grupos: "dialout" e "tty".
 
-* Adicionar o seu usuário ao grupo "tty":
+* Adicionar o seu usuário ao grupo _**"tty"**_:
 ```
 Linux terminal:~$ sudo usermod -a -G tty nomeDoSeuUsuario
 ``` 
-* Adicionar o seu usuário ao grupo "dialout":
+* Adicionar o seu usuário ao grupo _**"dialout"**_:
 ```
 Linux terminal:~$ sudo usermod -a -G dialout nomeDoSeuUsuario
 ```
