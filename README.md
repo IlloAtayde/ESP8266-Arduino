@@ -4,7 +4,7 @@ Este pequeno tutorial descreve os passos necessários para configuração e inst
 em sistemas operacionais _GNU_/Linux. Permitindo o uso da _IDE_ do Arduino na codificação e gravação direta das placas que possuam o _ESP8266_.
 
 ***
-######Os passos consistem em:
+#### Os passos consistem em:
 * Instalar o _JAVA_.
 * Descarregar e instalar a _IDE_ do Arduino.
 * Configurar permissões e grupos.(nada complicado!)
@@ -17,7 +17,7 @@ Todos os procedimentos efetuados neste tutorial foram executados em uma distribu
 Xubuntu 16.04.1 LTS
 ```
 
-######Instalando o _JAVA_
+#### Instalando o _JAVA_
 
 * Adicione repositório da _ORACLE_
 ```
@@ -33,7 +33,7 @@ Linux terminal:~$ sudo apt-get install oracle-java8-installer
 ```
 ---
 
-######Descarregar e instalar a _IDE_ do Arduino
+#### Descarregar e instalar a _IDE_ do Arduino
 
 [Link para arquiteturas de 32 bits](https://www.arduino.cc/download.php?f=/arduino-nightly-linux32.tar.xz)
 
@@ -67,7 +67,7 @@ Linux terminal:~$ ./install.sh
 ```
 ---
 
-######Configurar permissões e grupos.(nada complicado)
+#### Configurar permissões e grupos.(nada complicado)
 
 >Ao longo da instalação será adicionado um atalho na área de trabalho, que será ulitizado para "chamar" o arquivo executável. Caso o processo de instalação tenha sido executado pelo super usuário através do comando "sudo", o atalho não poderá ser    executado por um usuário não "root", dessa forma teremos que mudar as permissões de execução de tal arquivo, da seguinte forma:
 
@@ -92,7 +92,7 @@ Linux terminal:~$ sudo usermod -a -G dialout nomeDoSeuUsuario
 ```
 ---
 
-######Cofigurar a _IDE_ do Arduino para trabalhar com o _ESP_.
+#### Cofigurar a _IDE_ do Arduino para trabalhar com o _ESP_.
 
 >Concluído a etapa anterior agora vamos adicionar uma URL no gerenciador de placas da IDE Arduino, para que ela possa descarregar as bibliotecas necessárias para podermos programar diretamente no ESP.
 
